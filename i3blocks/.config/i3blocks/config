@@ -1,0 +1,39 @@
+[bluetooth]
+command=~/.config/i3blocks/bluetooth.sh
+interval=5
+background=#282c34
+color=#c678dd
+border=#61afef
+separator=false
+
+[volume]
+command=~/.config/i3blocks/volume.sh
+interval=1
+background=#282c34
+color=#61afef
+border=#e06c75
+separator=false
+
+[microphone]
+command=~/.config/i3blocks/microphone.sh
+interval=1
+background=#282c34
+color=#d19a66
+border=#56b6c2
+separator=false
+
+[battery]
+command=~/.config/i3blocks/battery.sh
+interval=30
+background=#282c34   # Background color (dark gray)
+color=#61afef         # Text (foreground) color (blue)
+border=#e06c75        # Border color (red)
+separator=false       # Optional: hide the separator line
+
+[datetime]
+command=~/.config/i3blocks/datetime.sh
+interval=1
+background=#282c34
+color=#98c379
+border=#61afef
+separator=false
