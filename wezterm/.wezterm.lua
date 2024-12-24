@@ -24,6 +24,6 @@ config.window_decorations = "NONE"
 config.window_background_opacity = 0.75
 config.font_size = 18.0
 
-config.default_prog = { '/usr/bin/fish', '-l' }
+--config.default_prog = { '/usr/bin/fish', '-l' }
 
 return config
