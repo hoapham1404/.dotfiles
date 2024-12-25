@@ -55,11 +55,13 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful
-	.init("~/.config/awesome/themes/default/theme.lua")
-	-- This is used later as the default terminal and editor to run.
-	.terminal =
-	"x-terminal-emulator"
+--beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua") -- change to .config/awesome/theme.lua
+home = os.getenv("HOME")
+beautiful.init(home .. "/.config/awesome/theme.lua")
+beautiful.get().wallpaper = home .. "/.config/awesome/wallpaper.jpeg"
+
+-- This is used later as the default terminal and editor to run.
+terminal = "x-terminal-emulator"
 editor = os.getenv("EDITOR") or "editor"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -601,3 +603,4 @@ client.connect_signal("unfocus", function(c)
 	c.border_color = beautiful.border_normal
 end)
 -- }}}
+
