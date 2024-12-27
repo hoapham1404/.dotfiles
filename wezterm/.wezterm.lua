@@ -1,13 +1,13 @@
-local wezterm = require 'wezterm'
+local wezterm = require("wezterm")
 local mux = wezterm.mux
 local config = wezterm.config_builder()
 
 wezterm.on("gui-startup", function()
-	local tab, pane, window = mux.spawn_window {}
+	local tab, pane, window = mux.spawn_window({})
 	window:gui_window():maximize()
 end)
 
-config.color_scheme = 'Dracula'
+config.color_scheme = "Dracula"
 
 config.window_padding = {
 	left = 2,
