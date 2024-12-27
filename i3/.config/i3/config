@@ -34,12 +34,13 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 exec --no-startup-id feh --bg-fill $HOME/wallpaper.jpg
-
+exec --no-startup-id picom 
 
 # Automatically open applications when you start i3. To only start i3 without
 exec --no-startup-id ibus-daemon -drx
 exec --no-startup-id /usr/lib/gsd-xsettings
 exec --no-startup-id xinput set-prop 10 "libinput Natural Scrolling Enabled" 1
+
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
