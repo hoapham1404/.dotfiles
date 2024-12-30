@@ -21,6 +21,8 @@ config.initial_cols = 205
 config.window_decorations = "NONE"
 
 -- Color scheme
+config.color_scheme = "Dracula"
+
 -- Font
 config.font = wezterm.font_with_fallback({
 	"JetBrains Mono",
