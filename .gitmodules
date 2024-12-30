@@ -1,4 +1,0 @@
-[submodule "neovim"]
-	path = neovim
-	url = git@github.com:hoapham2k2/nvim.git
-
