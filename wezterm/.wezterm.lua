@@ -7,23 +7,33 @@ wezterm.on("gui-startup", function()
 	window:gui_window():maximize()
 end)
 
-config.color_scheme = "Dracula"
-
 config.window_padding = {
-	left = 2,
-	right = 2,
+	left = 0,
+	right = 0,
 	top = 0,
 	bottom = 0,
 }
 
+-- Disable tab bar and set initial window size for maximized window
 config.enable_tab_bar = false
 config.initial_rows = 100
 config.initial_cols = 205
 config.window_decorations = "NONE"
 
-config.window_background_opacity = 0.75
-config.font_size = 18.0
+-- Color scheme
+-- Font
+config.font = wezterm.font_with_fallback({
+	"JetBrains Mono",
+	"Cascadia Code",
+	"DejaVu Sans Mono",
+	"monospace",
+})
+config.font_size = 14.0
 
---config.default_prog = { '/usr/bin/fish', '-l' }
+-- Cursor
+config.cursor_blink_rate = 0
+
+-- transparency background
+config.window_background_opacity = 0.8
 
 return config
