@@ -21,7 +21,7 @@ config.initial_cols = 205
 config.window_decorations = "NONE"
 
 -- Color scheme
-config.color_scheme = "Dracula"
+--config.color_scheme = "Catppuccin Mocha"
 
 -- Font
 config.font = wezterm.font_with_fallback({
