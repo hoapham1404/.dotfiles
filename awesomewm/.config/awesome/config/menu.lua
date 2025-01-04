@@ -15,9 +15,9 @@ M.awesomemenu = {
 			hotkeys_popup.show_help(nil, awful.screen.focused())
 		end,
 	},
-	{ "Manual", M.terminal .. " -e man awesome" },
-	{ "Edit Config", M.editor_cmd .. " " .. awesome.conffile },
-	{ "Restart", awesome.restart },
+	--{ "Manual", M.terminal .. " -e man awesome" },
+	-- { "Edit Config", M.editor_cmd .. " " .. awesome.conffile },
+	-- { "Restart", awesome.restart },
 	{
 		"Quit",
 		function()

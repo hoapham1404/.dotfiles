@@ -4,6 +4,7 @@
 local awful = require("awful")
 local hotkeys_popup = require("awful.hotkeys_popup")
 local variables = require("config.variables")
+local gears = require("gears")
 
 local M = {}
 
