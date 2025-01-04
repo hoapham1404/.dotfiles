@@ -30,10 +30,29 @@ install_nvm() {
     fi
 }
 
+# Set default Node.js version to LTS
+set_nvm_default_lts() {
+    echo "Ensuring NVM uses the latest LTS version of Node.js by default..."
+
+    # Load NVM environment (in case it's not loaded)
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+    # Install the latest LTS version of Node.js and set it as default
+    nvm install --lts
+    nvm alias default lts/*
+
+    echo "Default Node.js version set to LTS: $(nvm current)"
+}
+
 # Main script execution
 if check_nvm_installed; then
-    echo "Skipping installation. NVM is already installed."
+    echo "NVM is already installed. Proceeding to set default Node.js version to LTS..."
 else
     install_nvm
 fi
+
+# Ensure default Node.js version is LTS
+set_nvm_default_lts
 
