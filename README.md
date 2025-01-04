@@ -4,6 +4,13 @@ This is a repository for my dotfiles. I use [GNU Stow](https://www.gnu.org/softw
 ## Requirements
 - [GNU Stow](https://www.gnu.org/software/stow/)
 
+### 1. Tmux
+- fzf
+
+### 2. Neovim
+- Node.js (for Copilot)
+- xclip (for clipboard support)
+
 
 ## Installation
 1. Clone the repository to your home directory.
