@@ -2,11 +2,7 @@
 This is a repository for my dotfiles. I use [GNU Stow](https://www.gnu.org/software/stow/) to manage them.
 
 ## Requirements
-- **Quick Installation** (After cloning the repository)
-    ```bash
-    cd ~/dotfiles
-    ./debian_install.sh
-    ```
+- **Quick Installation**: Download `./debian_install.sh` and run it. It will install all the required packages for you.
 ### 1. Tmux
 - fzf
 
