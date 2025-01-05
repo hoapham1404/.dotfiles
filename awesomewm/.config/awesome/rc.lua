@@ -150,6 +150,9 @@ menubar.utils.terminal = terminal -- Set the terminal for applications that requ
 -- Create a textclock widget
 mytextclock = wibox.widget.textclock()
 
+-- Create a volume widget
+volume_widget = wibox.wiget.textbox()
+
 -- Create a wibox for each screen and add it
 local taglist_buttons = gears.table.join(
 	awful.button({}, 1, function(t)
@@ -392,6 +395,19 @@ globalkeys = gears.table.join(
 	end),
 	awful.key({}, "XF86MonBrightnessDown", function()
 		brightness_widget:dec()
+	end),
+
+	-- Volume
+	awful.key({}, "XF86AudioLowerVolume", function()
+		awful.spawn("amixer set Master 5%-")
+	end),
+
+	awful.key({}, "XF86AudioRaiseVolume", function()
+		awful.spawn("amixer set Master 5%+")
+	end),
+
+	awful.key({}, "XF86AudioMute", function()
+		awful.spawn("amixer set Master toggle")
 	end)
 )
 

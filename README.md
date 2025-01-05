@@ -13,6 +13,13 @@ This is a repository for my dotfiles. I use [GNU Stow](https://www.gnu.org/softw
 ### 3. AwesomeWM
 - brightnessctl (for brightness control)
 - acpi (for battery status)
+- amixer (for volume control)
+
+### 4. I3
+- brightnessctl (for brightness control)
+- acpi (for battery status)
+- amixer (for volume control)
+- rofi (for application launcher)
 
 
 ## Installation
