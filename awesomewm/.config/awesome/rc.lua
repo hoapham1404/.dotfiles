@@ -21,6 +21,7 @@ require("awful.hotkeys_popup.keys")
 -- Load Debian menu entries
 local debian = require("debian.menu")
 local has_fdo, freedesktop = pcall(require, "freedesktop")
+local brightness_widget = require("awesome-wm-widgets.brightness-widget.brightness")
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
@@ -145,9 +146,6 @@ mylauncher = awful.widget.launcher({ image = beautiful.awesome_icon, menu = myma
 menubar.utils.terminal = terminal -- Set the terminal for applications that require it
 -- }}}
 
--- Keyboard map indicator and switcher
-mykeyboardlayout = awful.widget.keyboardlayout()
-
 -- {{{ Wibar
 -- Create a textclock widget
 mytextclock = wibox.widget.textclock()
@@ -265,7 +263,12 @@ awful.screen.connect_for_each_screen(function(s)
 		s.mytasklist, -- Middle widget
 		{ -- Right widgets
 			layout = wibox.layout.fixed.horizontal,
-			mykeyboardlayout,
+			--mykeyboardlayout,
+			brightness_widget({
+				type = "icon_and_text",
+				program = "brightnessctl",
+				step = 5,
+			}),
 			wibox.widget.systray(),
 			mytextclock,
 			s.mylayoutbox,
@@ -381,7 +384,15 @@ globalkeys = gears.table.join(
 	-- Menubar
 	awful.key({ modkey }, "p", function()
 		menubar.show()
-	end, { description = "show the menubar", group = "launcher" })
+	end, { description = "show the menubar", group = "launcher" }),
+
+	-- Brightness
+	awful.key({}, "XF86MonBrightnessUp", function()
+		brightness_widget:inc()
+	end),
+	awful.key({}, "XF86MonBrightnessDown", function()
+		brightness_widget:dec()
+	end)
 )
 
 clientkeys = gears.table.join(

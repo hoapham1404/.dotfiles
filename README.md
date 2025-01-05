@@ -10,6 +10,10 @@ This is a repository for my dotfiles. I use [GNU Stow](https://www.gnu.org/softw
 - Node.js (for Copilot)
 - xclip (for clipboard support)
 
+### 3. AwesomeWM
+- brightnessctl (for brightness control)
+- acpi (for battery status)
+
 
 ## Installation
 1. Clone the repository to your home directory.
