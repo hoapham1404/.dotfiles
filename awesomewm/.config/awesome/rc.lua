@@ -344,11 +344,15 @@ globalkeys = gears.table.join(
 	awful.key({ modkey, "Control" }, "l", function()
 		awful.tag.incncol(-1, nil, true)
 	end, { description = "decrease the number of columns", group = "layout" }),
+
+	awful.key({ modkey }, "space", function()
+		awful.layout.inc(1)
+	end, { description = "select next", group = "layout" }),
+
 	awful.key({ "Mod4" }, "space", function()
-		-- Now update that toggle ibus input method with "Bamboo" and "BambooUs"
-		-- The "Bamboo" is the input method for Vietnamese, and "BambooUs" is the input method for English
 		awful.spawn.with_shell("ibus engine $(ibus engine | grep -q BambooUs && echo Bamboo || echo BambooUs)")
 	end, { description = "switch to Bamboo input method", group = "custom" }),
+
 	awful.key({ modkey, "Shift" }, "space", function()
 		awful.layout.inc(-1)
 	end, { description = "select previous", group = "layout" }),
