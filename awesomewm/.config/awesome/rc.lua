@@ -215,7 +215,7 @@ awful.screen.connect_for_each_screen(function(s)
 	set_wallpaper(s)
 
 	-- Each screen has its own tag table.
-	awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
+	awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9", "0" }, s, awful.layout.layouts[1])
 
 	-- Create a promptbox for each screen
 	s.mypromptbox = awful.widget.prompt()
@@ -344,9 +344,11 @@ globalkeys = gears.table.join(
 	awful.key({ modkey, "Control" }, "l", function()
 		awful.tag.incncol(-1, nil, true)
 	end, { description = "decrease the number of columns", group = "layout" }),
-	awful.key({ modkey }, "space", function()
-		awful.layout.inc(1)
-	end, { description = "select next", group = "layout" }),
+	awful.key({ "Mod4" }, "space", function()
+		-- Now update that toggle ibus input method with "Bamboo" and "BambooUs"
+		-- The "Bamboo" is the input method for Vietnamese, and "BambooUs" is the input method for English
+		awful.spawn.with_shell("ibus engine $(ibus engine | grep -q BambooUs && echo Bamboo || echo BambooUs)")
+	end, { description = "switch to Bamboo input method", group = "custom" }),
 	awful.key({ modkey, "Shift" }, "space", function()
 		awful.layout.inc(-1)
 	end, { description = "select previous", group = "layout" }),
@@ -423,7 +425,7 @@ clientkeys = gears.table.join(
 -- Bind all key numbers to tags.
 -- Be careful: we use keycodes to make it work on any keyboard layout.
 -- This should map on the top row of your keyboard, usually 1 to 9.
-for i = 1, 9 do
+for i = 1, 10 do
 	globalkeys = gears.table.join(
 		globalkeys,
 		-- View tag only.
