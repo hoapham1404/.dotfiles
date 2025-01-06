@@ -6,7 +6,10 @@ This is a repository for my dotfiles. I use [GNU Stow](https://www.gnu.org/softw
 ### 1. Tmux
 - fzf
 
-### 2. Neovim
+### 2. Neovim (>= 0.9.0)
+- Git
+- Nerd Fonts (for icons), I currently use JetBrainsMono Nerd Font
+- C Compiler (for nvim-treesitter)
 - Node.js (for Copilot)
 - xclip (for clipboard support)
 
@@ -20,7 +23,6 @@ This is a repository for my dotfiles. I use [GNU Stow](https://www.gnu.org/softw
 - acpi (for battery status)
 - amixer (for volume control)
 - rofi (for application launcher)
-
 
 ## Installation
 1. Clone the repository to your home directory.
