@@ -1,39 +1,44 @@
 [bluetooth]
 command=~/.config/i3blocks/bluetooth.sh
 interval=5
+color=#c678dd
 # background=#282c34
-# color=#c678dd
 # border=#61afef
 # separator=true
 
 [volume]
 command=~/.config/i3blocks/volume.sh
 interval=1
+color=#61afef
 # background=#282c34
-# color=#61afef
 # border=#e06c75
 # separator=true
 
 [microphone]
 command=~/.config/i3blocks/microphone.sh
 interval=1
+color=#d19a66
 # background=#282c34
-# color=#d19a66
 # border=#56b6c2
 # separator=true
 
 [battery]
 command=~/.config/i3blocks/battery.sh
 interval=30
+color=#61afef         # Text (foreground) color (blue)
 # background=#282c34   # Background # color (dark gray)
-# color=#61afef         # Text (foreground) color (blue)
 # border=#e06c75        # Border # color (red)
 # separator=true
 
 [datetime]
 command=~/.config/i3blocks/datetime.sh
 interval=1
+color=#98c379
 # background=#282c34
-# color=#98c379
 # border=#61afef
 # separator=true
+#
+[weather]
+command=curl -Ss 'https://wttr.in?0&T&Q' | cut -c 16- | head -2 | xargs echo
+interval=3600
+color=#A4C2F4
