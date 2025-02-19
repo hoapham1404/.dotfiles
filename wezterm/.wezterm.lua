@@ -20,9 +20,6 @@ config.initial_rows = 100
 config.initial_cols = 205
 config.window_decorations = "NONE"
 
--- Color scheme
---config.color_scheme = "Catppuccin Mocha"
-
 -- Font
 config.font = wezterm.font_with_fallback({
 	"JetBrains Mono",
@@ -34,5 +31,13 @@ config.font_size = 14.0
 
 config.window_background_opacity = 0.8
 config.macos_window_background_blur = 20
+
+
+config.adjust_window_size_when_changing_font_size = false
+config.keys = {
+	{ key = "+", mods = "CTRL", action = wezterm.action.IncreaseFontSize },
+	{ key = "-", mods = "CTRL", action = wezterm.action.DecreaseFontSize },
+	{ key = "0", mods = "CTRL", action = wezterm.action.ResetFontSize },
+}
 
 return config
