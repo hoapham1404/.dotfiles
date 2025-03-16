@@ -210,25 +210,16 @@ bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ t
 bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
 bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 # Special key to take a screenshot with grim
-bindsym Print exec grim
+# bindsym Print exec 
+bindsym Print exec grim - | wl-copy
 
-#
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
-# bar {
-# 	position top
-#
-# # When the status_command prints a new line to stdout, swaybar updates.
-# # The default just shows the current date and time.
-# 		status_command while date +'%Y-%m-%d %X'; do sleep 1; done
-#
-# 		colors {
-# 			statusline #ffffff
-# 				background #323232
-# 				inactive_workspace #32323200 #32323200 #5c5c5c
-# 		}
-# }
-exec_always waybar 
+
+
+exec waybar 
 
 include /etc/sway/config.d/*
+
+# Key mapping for swaylock for Mod4 + L
+bindsym Mod4+l exec swaylock -f -c 000000
+# Key mapping for shutdown
+bindsym $mod+Shift+F4 exec systemctl poweroff
