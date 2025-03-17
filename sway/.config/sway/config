@@ -81,7 +81,7 @@ exec swayidle -w \
 # mouse button for dragging.
 		 floating_modifier $mod normal
 
-# Reload the configuration file
+# Reload the configuration file both in sway and waybar
 		 bindsym $mod+Shift+c reload
 
 # Exit sway (logs you out of your Wayland session)
