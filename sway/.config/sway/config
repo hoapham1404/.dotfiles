@@ -220,6 +220,10 @@ exec waybar
 include /etc/sway/config.d/*
 
 # Key mapping for swaylock for Mod4 + L
-bindsym Mod4+l exec swaylock -f -c 000000
+# bindsym Mod4+l exec swaylock -f -c 000000
+
+# Key mapping for sleep (suspend) for Mod4 + L
+bindsym Mod4+L exec systemctl suspend
+
 # Key mapping for shutdown
 bindsym $mod+Shift+F4 exec systemctl poweroff
