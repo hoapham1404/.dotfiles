@@ -22,7 +22,8 @@ set $menu wmenu-run
 
 ### Display Configuration
 output * bg ~/.config/sway/wallpaper.jpg fill
-output HDMI-A-1 resolution 1920x1080 position 1920,0
+output eDP-1 resolution 1920x1080 position 0,0
+output DP-3 resolution 1920x1080 position 1920,0
 
 ### Preferences
 default_border pixel 2
@@ -51,6 +52,20 @@ bindsym $mod+f exec $menu
 floating_modifier $mod normal
 
 ### Window Navigation
+# Allow mouse movement between screens
+focus follows mouse yes
+
+# Assign workspaces: Workspaces 1-5 on laptop, 6-10 on external monitor
+workspace 1 output eDP-1
+workspace 2 output eDP-1
+workspace 3 output eDP-1
+workspace 4 output eDP-1
+workspace 5 output eDP-1
+workspace 6 output DP-3
+workspace 7 output DP-3
+workspace 8 output DP-3
+workspace 9 output DP-3
+workspace 10 output DP-3
 # Focus movement
 bindsym $mod+$left focus left
 bindsym $mod+$down focus down

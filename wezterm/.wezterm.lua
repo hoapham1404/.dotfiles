@@ -22,7 +22,7 @@ config.window_decorations = "NONE"
 
 -- Font
 config.font = wezterm.font_with_fallback({
-	{ family = "JetBrains Mono", weight = "Medium" },
+	{ family = "JetBrains Mono", weight = "Bold", italic = true },
 })
 config.font_size = 16.0
 config.line_height = 1.1
