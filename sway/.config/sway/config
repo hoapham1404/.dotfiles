@@ -1,3 +1,16 @@
+# Sway Configuration File
+
+### Core Settings
+set $mod Mod1
+set $left h
+set $down j
+set $up k
+set $right l
+set $term wezterm
+set $menu wmenu-run
+default_border pixel 2
+floating_modifier $mod normal
+
 ### Input Method Configuration
 exec_always {
     export GTK_IM_MODULE=fcitx
@@ -11,51 +24,14 @@ exec_always {
     fcitx5 -d
 }
 
-### Core Variables
-set $mod Mod1
-set $left h
-set $down j
-set $up k
-set $right l
-set $term wezterm
-set $menu wmenu-run
-
 ### Display Configuration
 output * bg ~/.config/sway/wallpaper.jpg fill
 output eDP-1 resolution 1920x1080 position 0,0
 output DP-3 resolution 1920x1080 position 1920,0
-
-### Preferences
-default_border pixel 2
-
-### System Management
-# Idle configuration
-# Use swayidle to manage locking and suspend with hyprlock
-exec swayidle -w \
-    timeout 86400 'swaymsg "output * power off"' \
-    resume 'swaymsg "output * power on" && hyprlock' \
-    before-sleep 'hyprlock'
-
-# System control bindings
-bindsym Mod4+L exec systemctl suspend
-bindsym $mod+Shift+F4 exec systemctl poweroff
-bindsym $mod+Shift+c reload
-bindsym $mod+Shift+q exec "swaymsg exit"
-
-### Application Controls
-# Terminal
-bindsym $mod+Return exec $term
-
-# Window management
-bindsym $mod+q kill
-bindsym $mod+f exec $menu
-floating_modifier $mod normal
-
-### Window Navigation
-# Allow mouse movement between screens
 focus follows mouse yes
 
-# Assign workspaces: Workspaces 1-5 on laptop, 6-10 on external monitor
+### Workspace Configuration
+# Workspace assignments
 workspace 1 output eDP-1
 workspace 2 output eDP-1
 workspace 3 output eDP-1
@@ -66,7 +42,18 @@ workspace 7 output DP-3
 workspace 8 output DP-3
 workspace 9 output DP-3
 workspace 10 output DP-3
-# Focus movement
+
+### Key Bindings
+# Application Launchers
+bindsym $mod+Return exec $term
+bindsym $mod+f exec $menu
+
+# Window Management
+bindsym $mod+q kill
+bindsym $mod+t layout tabbed
+bindsym $mod+Shift+T layout toggle split
+
+# Window Navigation
 bindsym $mod+$left focus left
 bindsym $mod+$down focus down
 bindsym $mod+$up focus up
@@ -76,7 +63,7 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
-# Window movement
+# Window Movement
 bindsym $mod+Shift+$left move left
 bindsym $mod+Shift+$down move down
 bindsym $mod+Shift+$up move up
@@ -86,8 +73,7 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-### Workspace Management
-# Workspace switching
+# Workspace Switching
 bindsym $mod+1 workspace number 1
 bindsym $mod+2 workspace number 2
 bindsym $mod+3 workspace number 3
@@ -99,7 +85,7 @@ bindsym $mod+8 workspace number 8
 bindsym $mod+9 workspace number 9
 bindsym $mod+0 workspace number 10
 
-# Move container to workspace
+# Move Containers to Workspaces
 bindsym $mod+Shift+1 move container to workspace number 1
 bindsym $mod+Shift+2 move container to workspace number 2
 bindsym $mod+Shift+3 move container to workspace number 3
@@ -111,47 +97,49 @@ bindsym $mod+Shift+8 move container to workspace number 8
 bindsym $mod+Shift+9 move container to workspace number 9
 bindsym $mod+Shift+0 move container to workspace number 10
 
-### Layout Management
-bindsym $mod+t layout tabbed
-bindsym $mod+Shift+T layout toggle split
-
-### Scratchpad
+# Scratchpad
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
-### Resize Mode
+# System Controls
+bindsym Mod4+L exec systemctl suspend
+bindsym $mod+Shift+F4 exec systemctl poweroff
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+q exec "swaymsg exit"
+
+# Media Controls
+bindsym --locked XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym --locked XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
+bindsym Print exec grim - | wl-copy
+
+# Resize Mode
+bindsym $mod+r mode "resize"
 mode "resize" {
     bindsym $left resize shrink width 10px
     bindsym $down resize grow height 10px
     bindsym $up resize shrink height 10px
     bindsym $right resize grow width 10px
-
     bindsym Left resize shrink width 10px
     bindsym Down resize grow height 10px
     bindsym Up resize shrink height 10px
     bindsym Right resize grow width 10px
-
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
-bindsym $mod+r mode "resize"
 
-### Media Controls
-# Volume
-bindsym --locked XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
-bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
-bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
-bindsym --locked XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
-
-# Brightness
-bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
-bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-
-# Screenshot
-bindsym Print exec grim - | wl-copy
+### System Management
+# Idle Configuration
+exec swayidle -w \
+    timeout 86400 'swaymsg "output * power off"' \
+    resume 'swaymsg "output * power on" && hyprlock' \
+    before-sleep 'hyprlock'
 
 ### Startup Applications
 exec waybar
 
-### Include Additional Configs
+### Additional Configurations
 include /etc/sway/config.d/*
