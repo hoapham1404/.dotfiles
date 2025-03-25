@@ -10,7 +10,7 @@
 }
 
 window {
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 window#waybar {
@@ -113,5 +113,3 @@ window#waybar {
 #battery.charging {
 	color: #2dcc36;
 }
-
-
