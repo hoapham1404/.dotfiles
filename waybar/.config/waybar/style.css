@@ -10,7 +10,7 @@
 }
 
 window {
-	/*font-weight: bold;*/
+	font-weight: bold;
 }
 
 window#waybar {
@@ -31,18 +31,6 @@ window#waybar {
 .modules-left {}
 
 /*-----modules indv----*/
-/* #workspaces button { */
-/* 	padding: 1px 5px; */
-/* 	background-color: transparent; */
-/* } */
-/* #workspaces button:hover { */
-/* 	box-shadow: inherit; */
-/* 	background-color: rgba(0,153,153,1); */
-/* } */
-/**/
-/* #workspaces button.focused { */
-/* 	background-color: rgba(0,43,51,0.85); */
-/* } */
 
 #workspaces button {
 	padding: 1px 5px;
@@ -109,3 +97,21 @@ window#waybar {
  *rgba(0,153,153,1),#009999 --> Persian Green 
  *
  */
+
+#battery {
+	padding: 0 10px;
+}
+
+#battery.warning {
+	color: #e6e600;
+}
+
+#battery.critical {
+	color: #cc3436;
+}
+
+#battery.charging {
+	color: #2dcc36;
+}
+
+

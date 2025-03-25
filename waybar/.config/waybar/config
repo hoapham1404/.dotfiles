@@ -1,17 +1,31 @@
 {
-   "layer": "top",
-    "output": ["eDP-1", "VGA"],
-    "modules-left": ["sway/workspaces", "sway/mode"],
-	"modules-center": ["clock", "idle_inhibitor"],
-	"modules-right": ["tray", "custom/scratchpad-indicator", "pulseaudio", "custom/power"],
-
+	"layer": "top",
+	"output": [
+		"eDP-1",
+		"VGA"
+	],
+	"modules-left": [
+		"sway/workspaces",
+		"sway/mode"
+	],
+	"modules-center": [
+		"clock",
+		"idle_inhibitor"
+	],
+	"modules-right": [
+		"tray",
+		"custom/scratchpad-indicator",
+		"pulseaudio",
+		"custom/power",
+		"battery"
+	],
 	"sway/mode": {
 		"format": "<span style=\"italic\">{}</span>"
 	},
 	"network": {
 		"format-wifi": "{essid} ({signalStrength}%) ",
 		"format-ethernet": "{ifname} ",
-		"format-disconnected": "", 
+		"format-disconnected": "",
 		"max-length": 50,
 		"on-click": "kitty -e 'nmtui'"
 	},
@@ -45,7 +59,11 @@
 			"phone": "",
 			"portable": "",
 			"car": "",
-			"default": ["", "", ""]
+			"default": [
+				"",
+				"",
+				""
+			]
 		},
 		"on-click": "pavucontrol"
 	},
@@ -61,5 +79,22 @@
 		"exec-if": "exit 0",
 		"on-click": "swaymsg 'scratchpad show'",
 		"on-click-right": "swaymsg 'move scratchpad'"
+	},
+	"battery": {
+		"format": "{capacity}% {icon}",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"format-charging": "{capacity}% ",
+		"format-plugged": "{capacity}% ",
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"on-click": "kitty -e 'htop'"
 	}
 }
