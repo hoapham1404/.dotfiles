@@ -8,9 +8,9 @@ wezterm.on("gui-startup", function()
 end)
 
 config.window_padding = {
-	left = 0,
+	left = 5,
 	right = 0,
-	top = 0,
+	top = 5,
 	bottom = 0,
 }
 
@@ -20,19 +20,24 @@ config.initial_rows = 100
 config.initial_cols = 205
 config.window_decorations = "NONE"
 
--- Color scheme
---config.color_scheme = "Catppuccin Mocha"
-
 -- Font
 config.font = wezterm.font_with_fallback({
-	"JetBrains Mono",
-	"Cascadia Code",
-	"DejaVu Sans Mono",
-	"monospace",
+	{ family = "JetBrains Mono", weight = "Bold", italic = true },
 })
-config.font_size = 14.0
+config.font_size = 16.0
+config.line_height = 1.1
+config.cell_width = 1.0
+config.harfbuzz_features = { "calt=0", "liga=0" }
 
+-- Window Appearance
 config.window_background_opacity = 0.8
 config.macos_window_background_blur = 20
+
+config.adjust_window_size_when_changing_font_size = false
+config.keys = {
+	{ key = "+", mods = "CTRL", action = wezterm.action.IncreaseFontSize },
+	{ key = "-", mods = "CTRL", action = wezterm.action.DecreaseFontSize },
+	{ key = "0", mods = "CTRL", action = wezterm.action.ResetFontSize },
+}
 
 return config
