@@ -30,7 +30,7 @@ config.cell_width = 1.0
 config.harfbuzz_features = { "calt=0", "liga=0" }
 
 -- Window Appearance
-config.window_background_opacity = 0.8
+config.window_background_opacity = 0.6
 config.macos_window_background_blur = 20
 
 config.adjust_window_size_when_changing_font_size = false
