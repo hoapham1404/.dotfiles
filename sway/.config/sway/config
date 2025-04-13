@@ -120,6 +120,8 @@ bindsym --locked XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ to
 bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
 bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 bindsym Print exec grim - | wl-copy
+# bindsym F11 exec "swaymsg fullscreen toggle"
+bindsym F11 exec ~/.config/sway/toggle_fullscreen.sh
 
 # Resize Mode
 bindsym $mod+r mode "resize"
