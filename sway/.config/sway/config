@@ -57,6 +57,7 @@ bindsym $mod+f exec $menu
 bindsym $mod+q kill
 bindsym $mod+t layout tabbed
 bindsym $mod+Shift+T layout toggle split
+bindsym $mod+Shift+space floating toggle
 
 # Window Navigation
 bindsym $mod+$left focus left
