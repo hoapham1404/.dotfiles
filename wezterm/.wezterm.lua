@@ -40,4 +40,34 @@ config.keys = {
 	{ key = "0", mods = "CTRL", action = wezterm.action.ResetFontSize },
 }
 
+config.leader = {
+	key = 'a',
+	mods = 'CTRL',
+	timeout_miliseconds = 1000
+}
+
+config.keys = {
+	--splitting	
+	{
+		mods = "LEADER",
+		key = "-",
+		action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' }
+	},
+	{
+		mods = "LEADER",
+		key = "=",
+		action = wezterm.action.SplitHorizontal { domain = 'CurrentPaneDomain' }
+	},
+	{
+		mods = "LEADER",
+		key = "m",
+		action = wezterm.action.TogglePaneZoomState
+	},
+	{ key = "h", mods = "CTRL", action = wezterm.action.ActivatePaneDirection("Left") },
+	{ key = "l", mods = "CTRL", action = wezterm.action.ActivatePaneDirection("Right") },
+	{ key = "k", mods = "CTRL", action = wezterm.action.ActivatePaneDirection("Up") },
+	{ key = "j", mods = "CTRL", action = wezterm.action.ActivatePaneDirection("Down") },
+}
+
+
 return config
