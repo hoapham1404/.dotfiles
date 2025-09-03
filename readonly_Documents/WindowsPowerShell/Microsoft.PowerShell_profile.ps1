@@ -30,6 +30,8 @@ Set-PSReadLineKeyHandler -Key 'Ctrl+a,f'  -ScriptBlock {
     # Find directories up to depth 3
     $foundDirs = foreach ($base in $dirs) {
         if (Test-Path $base) {
+            $base
+
             Get-ChildItem -Path $base -Directory -Recurse -Depth 3 | Select-Object -ExpandProperty FullName
         }
     }
