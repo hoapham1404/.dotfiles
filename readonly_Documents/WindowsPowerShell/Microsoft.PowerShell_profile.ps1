@@ -126,6 +126,17 @@ Set-PSReadLineKeyHandler -Key 'Ctrl+a,f'  -ScriptBlock {
     }
 }
 
+# Go to neovim config directory quickly
+Set-PSReadLineKeyHandler -Key 'Ctrl+a,.' -ScriptBlock {
+    $nvimConfigPath = "$HOME\AppData\Local\nvim"
+    if (Test-Path $nvimConfigPath) {
+        Set-Location $nvimConfigPath
+        Write-Host "Changed to Neovim config directory: $nvimConfigPath" -ForegroundColor Green
+    } else {
+        Write-Host "Neovim config directory not found at: $nvimConfigPath" -ForegroundColor Yellow
+    }
+}
+
 # Additional Productivity Functions and Aliases
 function prompt {
     try {
