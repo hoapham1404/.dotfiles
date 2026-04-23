@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <Session activeView="1">
+        <mainView activeIndex="0" />
+        <subView activeIndex="1">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="652" endPos="652" selMode="0" offset="0" wrapCount="1" lang="None (Normal Text)" encoding="-1" userReadOnly="no" filename="C:\Users\hoapq\Documents\symphonizer\11857\00_context.txt" backupFilePath="" originalFileLastModifTimestamp="2873726229" originalFileLastModifTimestampHigh="31248959" tabColourId="-1" RTL="no" tabPinned="no" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="46" xOffset="0" scrollWidth="474" startPos="1140" endPos="1140" selMode="0" offset="0" wrapCount="1" lang="None (Normal Text)" encoding="-1" userReadOnly="no" filename="C:\Users\hoapq\Documents\symphonizer\11857\jyo_allowanced.txt" backupFilePath="C:\Users\hoapq\AppData\Roaming\Notepad++\backup\jyo_allowanced.txt@2026-04-22_164217" originalFileLastModifTimestamp="1008770615" originalFileLastModifTimestampHigh="31248956" tabColourId="-1" RTL="no" tabPinned="no" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </subView>
+    </Session>
+</NotepadPlus>

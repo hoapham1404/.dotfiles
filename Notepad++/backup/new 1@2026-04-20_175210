@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox minWidth="1500.0" prefWidth="1500.0" spacing="4.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jp.co.allexceed.symphonizer.client.pages.customer.customerinformation.kai.KaiController">
+   <children>
+      <VBox spacing="4.0" styleClass="customer-content" VBox.vgrow="ALWAYS">
+         <children>
+            <SplitPane fx:id="splitPane" dividerPositions="0.5" orientation="VERTICAL">
+              <items>
+                <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="150.0">
+                     <children>
+                        <fx:include fx:id="kaiInfoTable" minHeight="-Infinity" prefHeight="150.0" source="KaiInfoTable.fxml" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" VBox.vgrow="NEVER" />
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="250.0" prefHeight="500.0">
+                     <children>
+                        <TabPane prefHeight="400.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <tabs>
+                              <Tab fx:id="tabDetail" text="明細">
+                                 <content>
+                                    <fx:include fx:id="kaiDetailTab" source="KaiDetailTab.fxml" />
+                                 </content>
+                              </Tab>
+                              <Tab fx:id="tabKaiPlan" text="請求予定">
+                                 <content>
+                                    <fx:include fx:id="kaiPlanTab" source="KaiPlanTab.fxml" />
+                                 </content>
+                              </Tab>
+                           </tabs>
+                        </TabPane>
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </children>
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding>
+      </VBox>
+      <AnchorPane>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <children>
+            <fx:include fx:id="footer" source="KaiFooter.fxml" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets top="4.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,258 @@
+2025-08-02 16:56:58  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2025-08-02 16:56:58  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2025-08-02 16:56:59  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2025-08-02 16:56:59  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  8996/8996 bytes are written.
+2025-08-02 16:56:59  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2025-08-02 16:56:59  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2025-08-02 16:56:59  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  1446/1446 bytes are written.
+2025-08-02 16:56:59  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2025-08-02 16:56:59  WM_DESTROY (isEndSessionStarted == true)
+2025-08-05 19:07:02  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2025-08-05 19:07:02  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2025-08-05 19:07:02  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2025-08-05 19:07:03  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  8996/8996 bytes are written.
+2025-08-05 19:07:03  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2025-08-05 19:07:03  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2025-08-05 19:07:03  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  1447/1447 bytes are written.
+2025-08-05 19:07:03  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2025-08-05 19:07:03  WM_DESTROY (isEndSessionStarted == true)
+2025-08-07 17:43:30  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2025-08-07 17:43:30  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2025-08-07 17:43:30  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2025-08-07 17:43:30  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  8996/8996 bytes are written.
+2025-08-07 17:43:30  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2025-08-07 17:43:31  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2025-08-07 17:43:31  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  2071/2071 bytes are written.
+2025-08-07 17:43:31  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2025-08-07 17:43:31  WM_DESTROY (isEndSessionStarted == true)
+2025-09-23 23:42:22  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2025-09-23 23:42:23  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2025-09-23 23:42:23  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2025-09-23 23:42:23  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  9771/9771 bytes are written.
+2025-09-23 23:42:23  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2025-09-23 23:42:23  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2025-09-23 23:42:23  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  1411/1411 bytes are written.
+2025-09-23 23:42:23  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2025-09-23 23:42:23  WM_DESTROY (isEndSessionStarted == true)
+2025-09-24 10:01:10  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2025-09-24 10:01:10  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2025-09-24 10:01:11  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2025-09-24 10:01:11  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  9805/9805 bytes are written.
+2025-09-24 10:01:11  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2025-09-24 10:01:11  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2025-09-24 10:01:11  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  824/824 bytes are written.
+2025-09-24 10:01:11  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2025-09-24 10:01:11  WM_DESTROY (isEndSessionStarted == true)
+2025-10-01 18:01:42  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2025-10-01 18:01:42  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2025-10-01 18:01:42  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2025-10-01 18:01:42  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  10190/10190 bytes are written.
+2025-10-01 18:01:42  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2025-10-01 18:01:42  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2025-10-01 18:01:42  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  193/193 bytes are written.
+2025-10-01 18:01:42  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2025-10-01 18:01:42  WM_DESTROY (isEndSessionStarted == true)
+2025-11-18 13:10:18  WM_QUERYENDSESSION (lParam: 2147483648 - ENDSESSION_LOGOFF) =====================================
+2025-11-18 13:10:18  WM_ENDSESSION (wParam: TRUE, lParam: 2147483648 - ENDSESSION_LOGOFF)
+2025-11-18 13:10:19  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2025-11-18 13:10:19  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  10644/10644 bytes are written.
+2025-11-18 13:10:19  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2025-11-18 13:10:19  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2025-11-18 13:10:19  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  3879/3879 bytes are written.
+2025-11-18 13:10:19  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2025-11-18 13:10:19  WM_DESTROY (isEndSessionStarted == true)
+2025-11-21 10:25:56  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2025-11-21 10:25:56  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2025-11-21 10:25:57  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2025-11-21 10:25:57  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  10730/10730 bytes are written.
+2025-11-21 10:25:57  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2025-11-21 10:25:57  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2025-11-21 10:25:57  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  3298/3298 bytes are written.
+2025-11-21 10:25:57  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2025-11-21 10:25:57  WM_DESTROY (isEndSessionStarted == true)
+2026-01-05 18:45:05  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-01-05 18:45:05  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-01-05 18:45:06  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-01-05 18:45:06  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  10803/10803 bytes are written.
+2026-01-05 18:45:06  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-01-05 18:45:06  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-01-05 18:45:06  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  821/821 bytes are written.
+2026-01-05 18:45:06  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-01-05 18:45:06  WM_DESTROY (isEndSessionStarted == true)
+2026-01-14 18:14:50  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-01-14 18:14:50  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-01-14 18:14:51  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-01-14 18:14:51  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11264/11264 bytes are written.
+2026-01-14 18:14:51  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-01-14 18:14:51  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-01-14 18:14:51  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  1454/1454 bytes are written.
+2026-01-14 18:14:51  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-01-14 18:14:51  WM_DESTROY (isEndSessionStarted == true)
+2026-01-21 18:50:24  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-01-21 18:50:24  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-01-21 18:50:25  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-01-21 18:50:25  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11188/11188 bytes are written.
+2026-01-21 18:50:25  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-01-21 18:50:25  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-01-21 18:50:25  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  823/823 bytes are written.
+2026-01-21 18:50:25  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-01-21 18:50:25  WM_DESTROY (isEndSessionStarted == true)
+2026-01-27 19:13:34  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-01-27 19:13:34  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-01-27 19:13:34  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-01-27 19:13:34  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11352/11352 bytes are written.
+2026-01-27 19:13:34  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-01-27 19:13:34  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-01-27 19:13:34  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  193/193 bytes are written.
+2026-01-27 19:13:34  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-01-27 19:13:34  WM_DESTROY (isEndSessionStarted == true)
+2026-01-30 15:23:34  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-01-30 15:23:34  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-01-30 15:23:35  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-01-30 15:23:35  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11511/11511 bytes are written.
+2026-01-30 15:23:35  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-01-30 15:23:35  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-01-30 15:23:35  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  1519/1519 bytes are written.
+2026-01-30 15:23:35  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-02-02 15:25:03  WM_QUERYENDSESSION (lParam: 2147483648 - ENDSESSION_LOGOFF) =====================================
+2026-02-02 15:25:04  WM_ENDSESSION (wParam: TRUE, lParam: 2147483648 - ENDSESSION_LOGOFF)
+2026-02-02 15:25:04  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-02-02 15:25:04  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11299/11299 bytes are written.
+2026-02-02 15:25:04  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-02-02 15:25:04  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-02-02 15:25:04  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  828/828 bytes are written.
+2026-02-02 15:25:04  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-02-02 15:25:04  WM_DESTROY (isEndSessionStarted == true)
+2026-02-02 18:52:17  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-02-02 18:52:17  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-02-02 18:52:18  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-02-02 18:52:18  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11299/11299 bytes are written.
+2026-02-02 18:52:18  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-02-02 18:52:18  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-02-02 18:52:18  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  2665/2665 bytes are written.
+2026-02-02 18:52:18  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-02-02 18:52:18  WM_DESTROY (isEndSessionStarted == true)
+2026-02-06 11:01:05  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-02-06 11:01:05  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-02-06 11:01:05  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-02-06 11:01:05  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11330/11330 bytes are written.
+2026-02-06 11:01:05  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-02-06 11:01:05  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-02-06 11:01:05  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  1448/1448 bytes are written.
+2026-02-06 11:01:05  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-02-06 11:01:05  WM_DESTROY (isEndSessionStarted == true)
+2026-02-08 09:40:42  WM_QUERYENDSESSION (lParam: 1073741824 - ENDSESSION_CRITICAL) =====================================
+2026-02-08 09:40:42  WM_ENDSESSION (wParam: TRUE, lParam: 1073741824 - ENDSESSION_CRITICAL)
+2026-02-08 09:40:42  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-02-08 09:40:42  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11396/11396 bytes are written.
+2026-02-08 09:40:42  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-02-08 09:40:43  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-02-08 09:40:43  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  895/895 bytes are written.
+2026-02-08 09:40:43  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-02-08 09:40:43  WM_DESTROY (isEndSessionStarted == true)
+2026-02-12 09:05:20  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-02-12 09:05:20  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-02-12 09:05:21  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-02-12 09:05:21  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11146/11146 bytes are written.
+2026-02-12 09:05:21  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-02-12 09:05:21  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-02-12 09:05:21  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  888/888 bytes are written.
+2026-02-12 09:05:21  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-02-12 09:05:21  WM_DESTROY (isEndSessionStarted == true)
+2026-02-12 11:50:57  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-02-12 11:50:57  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-02-12 11:50:58  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-02-12 11:50:58  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11017/11017 bytes are written.
+2026-02-12 11:50:58  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-02-12 11:50:58  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-02-12 11:50:58  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  1645/1645 bytes are written.
+2026-02-12 11:50:58  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-02-27 01:53:01  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-02-27 01:53:01  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-02-27 01:53:02  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-02-27 01:53:02  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11038/11038 bytes are written.
+2026-02-27 01:53:02  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-02-27 01:53:02  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-02-27 01:53:02  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  2861/2861 bytes are written.
+2026-02-27 01:53:02  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-02-27 01:53:02  WM_DESTROY (isEndSessionStarted == true)
+2026-02-27 10:26:49  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-02-27 10:26:49  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-02-27 10:26:51  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-02-27 10:26:51  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11035/11035 bytes are written.
+2026-02-27 10:26:51  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-02-27 10:26:51  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-02-27 10:26:51  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  8010/8010 bytes are written.
+2026-02-27 10:26:51  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-02-27 10:26:51  WM_DESTROY (isEndSessionStarted == true)
+2026-03-02 18:58:12  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-03-02 18:58:12  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-03-02 18:58:13  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-03-02 18:58:13  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11100/11100 bytes are written.
+2026-03-02 18:58:13  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-03-02 18:58:13  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-03-02 18:58:13  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  5381/5381 bytes are written.
+2026-03-02 18:58:13  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-03-02 18:58:13  WM_DESTROY (isEndSessionStarted == true)
+2026-03-03 15:45:59  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-03-03 15:45:59  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-03-03 15:46:00  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-03-03 15:46:00  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11422/11422 bytes are written.
+2026-03-03 15:46:00  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-03-03 15:46:00  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-03-03 15:46:00  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  3283/3283 bytes are written.
+2026-03-03 15:46:00  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-03-03 15:46:00  WM_DESTROY (isEndSessionStarted == true)
+2026-03-03 17:47:10  WM_QUERYENDSESSION (lParam: 2147483648 - ENDSESSION_LOGOFF) =====================================
+2026-03-03 17:47:10  WM_ENDSESSION (wParam: TRUE, lParam: 2147483648 - ENDSESSION_LOGOFF)
+2026-03-03 17:47:10  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-03-03 17:47:10  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11422/11422 bytes are written.
+2026-03-03 17:47:10  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-03-03 17:47:10  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-03-03 17:47:10  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  3899/3899 bytes are written.
+2026-03-03 17:47:10  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-03-03 17:47:10  WM_DESTROY (isEndSessionStarted == true)
+2026-03-04 22:01:01  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-03-04 22:01:01  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-03-04 22:01:02  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-03-04 22:01:02  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11261/11261 bytes are written.
+2026-03-04 22:01:02  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-03-04 22:01:02  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-03-04 22:01:02  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  193/193 bytes are written.
+2026-03-04 22:01:02  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-03-10 12:01:58  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-03-10 12:01:58  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-03-10 12:01:59  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-03-10 12:01:59  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11427/11427 bytes are written.
+2026-03-10 12:01:59  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-03-10 12:01:59  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-03-10 12:01:59  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  4673/4673 bytes are written.
+2026-03-10 12:02:00  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-03-10 12:02:00  WM_DESTROY (isEndSessionStarted == true)
+2026-03-12 17:47:38  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-03-12 17:47:38  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-03-12 17:47:39  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-03-12 17:47:39  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  10945/10945 bytes are written.
+2026-03-12 17:47:39  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-03-12 17:47:39  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-03-12 17:47:39  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  5184/5184 bytes are written.
+2026-03-12 17:47:39  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-03-12 17:47:39  WM_DESTROY (isEndSessionStarted == true)
+2026-03-25 10:55:38  WM_QUERYENDSESSION (lParam: 2147483648 - ENDSESSION_LOGOFF) =====================================
+2026-03-25 10:55:38  WM_ENDSESSION (wParam: TRUE, lParam: 2147483648 - ENDSESSION_LOGOFF)
+2026-03-25 10:55:39  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-03-25 10:55:39  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11482/11482 bytes are written.
+2026-03-25 10:55:39  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-03-25 10:55:39  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-03-25 10:55:39  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  1454/1454 bytes are written.
+2026-03-25 10:55:39  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-03-25 10:55:39  WM_DESTROY (isEndSessionStarted == true)
+2026-04-05 16:13:20  WM_QUERYENDSESSION (lParam: 0 - ordinary system shutdown/restart) =====================================
+2026-04-05 16:13:20  WM_ENDSESSION (wParam: TRUE, lParam: 0 - ordinary system shutdown/restart)
+2026-04-05 16:13:21  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is opened.
+2026-04-05 16:13:21  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml  11733/11733 bytes are written.
+2026-04-05 16:13:21  C:\Users\hoapq\AppData\Roaming\Notepad++\config.xml is closed.
+2026-04-05 16:13:21  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is opened.
+2026-04-05 16:13:21  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml  193/193 bytes are written.
+2026-04-05 16:13:21  C:\Users\hoapq\AppData\Roaming\Notepad++\session.xml is closed.
+2026-04-05 16:13:21  WM_DESTROY (isEndSessionStarted == true)

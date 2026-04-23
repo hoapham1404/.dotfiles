@@ -1,0 +1,40 @@
+========================================
+TICKET 		: SYMPHO-10743 業務画面 - 個別入金 - 領収書発行履歴_表示順不正
+TYPE   		: Bug
+STATUS 		: In progress
+Milestone	: 03011485 - 伊賀上野_結合テスト
+START DATE  : 
+DUE DATE	:
+========================================
+
+Goal:
+Title: Màn hình nghiệp vụ - 個別入金 nhập tiền riêng lẻ - 領収書発行履歴 lịch sử phát hành hóa đơn_Thứ tự hiển thị không đúng
+
+Khái quát (bug summary)
+- Thứ tự hiển thị trong màn hình con 「領収書発行履歴 lịch sử phát hành hóa đơn」 mà được hiển thị khi nhấn nút 「領収書発行履歴 lịch sử phát hành hóa đơn」 ở màn hình 個別入金 nhập tiền riêng lẻ thì không đúng.
+- Hãy chỉnh sửa để được hiển thị theo thứ tự của 領収書連番 số liên tiếp hóa đơn.
+
+
+
+Scope:
+- In scope :
+- Out scope:
+
+Related:
+- Screen   :   HisReceiptListDialog, HisReceiptListDialogController
+- Module   :
+- Table    :
+- API      :                                                                         ư
+
+Notes:
+-  	https://all-exceed.backlog.com/git/SYMPHO/symphonizer/pullRequests/3613/diff có mô tả vấn đề liên quan. Họ có mô tả
+	■  Báo cáo nguyên nhân:
+		Các cột No（tcolNo）、サービス数（tcolServiceCnt）、 周期（tcolCycle）、金額（tcolPrice） đang được sắp xếp theo kiểu String chứ ko phải kiểu số
+	■  Báo cáo phương pháp sửa chữa
+		chình sửa để các cột No（tcolNo）、サービス数（tcolServiceCnt）、 周期（tcolCycle）、金額（tcolPrice）được sắp xếp theo kiểu số
+		tcolServiceCnt.setComparator(StringUtils.numericComparator());
+- Cach test
+	1. Vào màn hình 個別入金 
+	2. 登録番号: 10 và nhấn Indication button
+	3.  nhấn nút 「領収書発行履歴 lịch sử phát hành hóa đơn」
+	4. xem cột  領収書連番 tăng dần

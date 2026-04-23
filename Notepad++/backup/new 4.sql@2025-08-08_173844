@@ -1,0 +1,2 @@
+SELECT * FROm t_utility_meters
+where usage_term = '2025/09/16';
